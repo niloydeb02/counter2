@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #001F5F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main_container {
+    display: flex;
+    gap: 20px;
+}
+
+.single_count{
+  text-align: center;
+}
+
+.single_count .number {
+      min-width: 70px;
+      padding: 20px 8px;
+      background: #fff;
+      border-radius: 4px;
+      color: #001042;
+      display: block;
+      font-size: 25px;
+      
+      font-weight: 700;
+      margin-bottom: 4px;
+  
+    
+}
+
+.single_count .text {
+    
+    font-size: 16px;
+    color: #ffffff;
+}
